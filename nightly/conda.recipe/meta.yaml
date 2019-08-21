@@ -16,12 +16,12 @@ requirements:
   build:
     - python
     - setuptools
-    - pytorch-nightly
+    - pytorch
     - enum34 # [py < 34]
 
   run:
     - python
-    - pytorch-nightly
+    - pytorch
     - enum34 # [py < 34]
 
 test:
